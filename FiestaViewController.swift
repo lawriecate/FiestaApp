@@ -18,7 +18,7 @@ class FiestaViewController: UIViewController  {
     override func viewDidLoad() {
         super.viewDidLoad()
        // fiestaTitle.text = (viaSegue.annotation?.title)!
-       
+       //
    //     print(fiesta.title)
         navigationItem.title = fiesta.title
          self.fiestaTitle.text = String(fiesta.coordinate.latitude) + "\n" + String(fiesta.coordinate.longitude)
